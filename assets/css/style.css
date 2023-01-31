@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import url(./cabecalho.css);
+@import url(./menu-lateral.css);
+
+html {
+    scroll-behavior: smooth;
+    transition: all .5s;
+}
+
+:root {
+
+    --fonte-principal: 'Roboto', sans-serif;
+    --fonte-titulo: 'Dosis', sans-serif;
+    --laranja-novell: linear-gradient(249.01deg, #F7941E 45.76%, #FF4D00 100%);
+    --laranja: #F7941E;
+    --azul: #6036FF;
+    --azul-titulo: #584EC1;
+    --branco: #ffffff;
+    --bege: #f7941e14;
+
+}
+
+.corpo {
+    font-family: var(--fonte-titulo);
+}
